@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<title>THE Y CLOCK</title>
+	 <!-- Imported Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Mono:wght@100;200;400;700&display=swap" rel="stylesheet">
+	<!-- Link to the css stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Runs scripts and connects to javascript file  doesnt work here, why?-->
+
+</head>
+<body>
+	<div class="grid">
+		<div id="header"> 
+			<h1>THE Y CLOCK </h1>
+			 <h4> Better three hours too soon than a minute too late </h4>
+				<p id="clock">Placeholder for the clock</p>
+				<img id='food-image' src='images/woman4.png'>
+    <blockquote id="timeEvent">Welcome stranger, set your times!</blockquote>
+    <div class='time-setter'>
+	  <span id="selection1">SET PARTY TIME</span>
+	  <select id="breakfastTimeSelector">
+		<option value="1">01:00 - 02:00 </option>
+		<option value="2">02:00 - 03:00 </option>
+		<option value="3">03:00 - 04:00 </option>
+		<option value="4">04:00 - 05:00 </option>
+		<option value="5">05:00 - 06:00 </option>
+		<option value="6">06:00 - 07:00 </option>
+		<option value="7">07:00 - 08:00 </option>
+		<option value="8">08:00 - 09:00 </option>
+		<option value="9">09:00 - 10:00 </option>
+		<option value="10">10:00 - 11:00 </option>
+		<option value="11">11:00 - 12:00 </option>
+		<option value="12">12:00 - 13:00 </option>
+		<option value="13">13:00 - 14:00 </option>
+		<option value="14">14:00 - 15:00 </option>
+		<option value="15">15:00 - 16:00 </option>
+		<option value="16">16:00 - 17:00 </option>
+		<option value="17">17:00 - 18:00 </option>
+		<option value="18">18:00 - 19:00 </option>
+		<option value="19">19:00 - 20:00 </option>
+		<option value="20">20:00 - 21:00 </option>
+		<option value="21">21:00 - 22:00 </option>
+		<option value="22">22:00 - 23:00 </option>
+		<option value="23">23:00 - 00:00 </option>
+		<option value="24">00:00 - 01:00 </option>
+	  </select>
+    </div>
+	<br>
+	<div class='time-setter'>
+	  <span id="selection2">SET BEACH TIME</span>
+	  <select id="beachTimeSelector">
+		<option value="1">01:00 - 02:00 </option>
+		<option value="2">02:00 - 03:00 </option>
+		<option value="3">03:00 - 04:00 </option>
+		<option value="4">04:00 - 05:00 </option>
+		<option value="5">05:00 - 06:00 </option>
+		<option value="6">06:00 - 07:00 </option>
+		<option value="7">07:00 - 08:00 </option>
+		<option value="8">08:00 - 09:00 </option>
+		<option value="9">09:00 - 10:00 </option>
+		<option value="10">10:00 - 11:00 </option>
+		<option value="11">11:00 - 12:00 </option>
+		<option value="12">12:00 - 13:00 </option>
+		<option value="13">13:00 - 14:00 </option>
+		<option value="14">14:00 - 15:00 </option>
+		<option value="15">15:00 - 16:00 </option>
+		<option value="16">16:00 - 17:00 </option>
+		<option value="17">17:00 - 18:00 </option>
+		<option value="18">18:00 - 19:00 </option>
+		<option value="19">19:00 - 20:00 </option>
+		<option value="20">20:00 - 21:00 </option>
+		<option value="21">21:00 - 22:00 </option>
+		<option value="22">22:00 - 23:00 </option>
+		<option value="23">23:00 - 00:00 </option>
+		<option value="24">00:00 - 01:00 </option>
+	  </select>
+    </div>
+ 	<br>
+ 	<div class='time-setter'>
+	  <span id="selection3">SET SPACE TIME</span>
+	  <select id="spaceTimeSelector">
+		<option value="1">01:00 - 02:00 </option>
+		<option value="2">02:00 - 03:00 </option>
+		<option value="3">03:00 - 04:00 </option>
+		<option value="4">04:00 - 05:00 </option>
+		<option value="5">05:00 - 06:00 </option>
+		<option value="6">06:00 - 07:00 </option>
+		<option value="7">07:00 - 08:00 </option>
+		<option value="8">08:00 - 09:00 </option>
+		<option value="9">09:00 - 10:00 </option>
+		<option value="10">10:00 - 11:00 </option>
+		<option value="11">11:00 - 12:00 </option>
+		<option value="12">12:00 - 13:00 </option>
+		<option value="13">13:00 - 14:00 </option>
+		<option value="14">14:00 - 15:00 </option>
+		<option value="15">15:00 - 16:00 </option>
+		<option value="16">16:00 - 17:00 </option>
+		<option value="17">17:00 - 18:00 </option>
+		<option value="18">18:00 - 19:00 </option>
+		<option value="19">19:00 - 20:00 </option>
+		<option value="20">20:00 - 21:00 </option>
+		<option value="21">21:00 - 22:00 </option>
+		<option value="22">22:00 - 23:00 </option>
+		<option value="23">23:00 - 00:00 </option>
+		<option value="24">00:00 - 01:00 </option>
+	  </select>
+    </div>
+	<p id='button'class="btn-default"> PUSH ME </p>
+    <footer>
+	  <p>© MICHAEL BEAMER 2020</p>
+    </footer>
+	</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- Runs scripts and connects to javascript file  -->
+	<script src="move.js"></script>
+</body>
+</html>
