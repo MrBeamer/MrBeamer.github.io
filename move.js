@@ -1,7 +1,7 @@
 //Global varibales in the global scope
-let breakfastTime = 9;
-let beachTime = 12;
-let spaceTime = 19;
+let breakfastTime = 1;
+let beachTime = 1;
+let spaceTime = 1;
 
 // Gets the current time and replaces the placeholder through innerHTML
 let showCurrentTime = () =>{
